@@ -16,6 +16,8 @@ am start -a android.intent.action.MAIN -c android.intent.category.HOME\
 ./adb shell am force-stop com.my.app.package\
 \
 ./adb install \{PATH + FILENAME.apk\}\
+./adb install -r \'85    //instala por cima de um apk existente.\
+./adb shell input keyevent KEYCODE HOME\
 \
 \
 \pard\pardeftab720\partightenfactor0
